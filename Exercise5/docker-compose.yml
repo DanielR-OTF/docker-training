@@ -1,0 +1,7 @@
+version: "1"
+services:
+  mongo:
+    image: mongo:latest
+    environment:
+      USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
+      PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
